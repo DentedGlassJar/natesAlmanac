@@ -3,13 +3,47 @@
 
 /* Global ------------------------------------- */
 body {
-    background-color: #000b39;
+    background: #000b39;
 }
+
 .g-page {
     color: #ffffff;
-    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
 }
+
 .g-header {
+    background: #00061d;
     font-family: "Raleway", sans-serif;
     font-size: 2rem;
+
+    padding-left: 20px;
+}
+
+.g-main {
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.g-nav {
+    background: #ff8a1c;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.g-text {
+    padding-left: 20px;
+}
+
+/* Media Quaries ------------------------------------- */
+@media screen and (max-width: 700px) {
+
 }
