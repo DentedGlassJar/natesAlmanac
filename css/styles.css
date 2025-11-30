@@ -29,14 +29,26 @@ body {
 
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .g-nav {
-    background: #ff8a1c;
+    background: #c45f00;
 
     display: flex;
     flex-direction: column;
+}
+
+.g-link {
+    color:#ffffff;
+    text-decoration: none;
+
+    &:visited {
+        color:#ffffff;
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 .g-text {
@@ -45,5 +57,22 @@ body {
 
 /* Media Quaries ------------------------------------- */
 @media screen and (max-width: 700px) {
+    .g-main {
+        padding-top: 20px;
 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .g-nav {
+        background: #c45f00;
+        
+        display: flex;
+        flex-direction: row;
+    }
+
+    .g-text {
+        padding-top: 20px;
+    }
 }
