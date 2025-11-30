@@ -1,4 +1,15 @@
 /* Imported Raleway font from Google */
-@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Global ------------------------------------- */
+body {
+    background-color: #000b39;
+}
+.g-page {
+    color: #ffffff;
+    padding: 20px;
+}
+.g-header {
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+}
