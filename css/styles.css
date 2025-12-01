@@ -33,14 +33,25 @@ body {
 
 .g-nav {
     background: #c45f00;
+    color:#00061d;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
 
+    height: 300px;
+    /* padding-left: 60px;
+    padding-right: 60px; */
+    
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .g-link {
     color:#ffffff;
     text-decoration: none;
+    border-bottom: 2px dotted #ffffff;
+
+    /* flex: none; */
 
     &:visited {
         color:#ffffff;
@@ -67,6 +78,8 @@ body {
 
     .g-nav {
         background: #c45f00;
+        
+        height: auto;
         
         display: flex;
         flex-direction: row;
